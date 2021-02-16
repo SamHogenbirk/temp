@@ -1,0 +1,81 @@
+.title-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    width: auto;
+    border-bottom: 1px solid green;
+}
+
+.input-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#submit{
+    background-color:lightgreen;
+    border: none;
+    border-radius: 15px;
+    margin-left: 3px;
+
+}
+
+.list-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#main-list{
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    
+}
+
+li{
+    padding: 0px;
+    max-width: 300px;
+
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.item-text{
+    margin: 0px 0px 0px 5px;
+    padding: 0px 7px 0px 7px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+
+}
+
+.delete-button{
+    border:none;
+    background-color: white;
+    color: red;
+    font-family: Cambria, Cochin, Georgia;
+    
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+ button:focus{
+     outline: none;
+     
+ }
